@@ -8,7 +8,7 @@ export const useDarkMode = (modeKey) => {
     if (darkMode) {
       document.body.classList.add("dark-mode");
     } else {
-      document.body.classlist.remove("dark-mode");
+      document.body.classList.remove("dark-mode");
     }
   }, [darkMode]);
 
